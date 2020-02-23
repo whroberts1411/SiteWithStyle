@@ -1,0 +1,161 @@
+/* -----------------------------------------------------------------------
+   CSS code for styling my personal website.
+   From the Udemy "The Complete Web Development Bootcamp" online course.
+   -----------------------------------------------------------------------*/
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  line-height: 2;
+  background-image: linear-gradient(#e4f9f5, #97eeee);
+}
+/* --------------------  Headings h1 -> h3 ----------------------------- */
+h1 {
+  color: #66bfbf;
+  margin: 50px auto 0px auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+}
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0 auto 0 auto;
+  line-height: 1;
+}
+h3 {
+  color: #11999e;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+/* --------------------- Page divisions <div> ------------------------------- */
+.top-container {
+  position: relative;
+  padding-top: 50px;
+}
+.middle-container {
+  margin-top: 20px;
+}
+.skill-row {
+  width: 50%;
+  margin: 0 auto 30px auto;
+  text-align: left;
+}
+.contact-me {
+  width: 70%;
+  margin: 0px auto 30px auto;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* ------------------ Miscellaneous HTML elements ---------------------------- */
+/* paragraphs */
+.intro {
+  width: 70%;
+  margin: 0px auto 30px auto;
+  text-align: left;
+}
+#copyright {
+  color: whitesmoke;
+  font-size: small;
+  padding-top: 20px;
+}
+/* horizontal lines */
+#first-hr {
+  border: solid rgba(165, 42, 42, 0.459) 1px;
+  width: 90%;
+  margin: -10px auto 40px auto;
+}
+hr {
+  border: dotted teal 6px;
+  border-bottom: none;
+  width: 15%;
+  margin: 40px auto;
+}
+/* anchors (links) */
+.footer-link {
+  color: #11999e;
+  margin: 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #e4f9f5;
+}
+/* ----------------- images in the order that they are displayed ------------------------ */
+.doginglasses {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  height: 100px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.face {
+  width: 125px;
+  height: 125px;
+  margin-bottom: 0;
+}
+.computer,
+.camera,
+.hiker {
+  border-radius: 100%;
+  width: 20%;
+}
+.computer,
+.hiker {
+  float: left;
+  margin-right: 30px;
+}
+.camera {
+  float: right;
+  margin-left: 30px;
+}
+/* --------------- This button was generated using CSSButtonGenerator.com --------------- */
+.btn {
+  background-color: #11999e;
+  -webkit-border-top-left-radius: 9px;
+  -moz-border-radius-topleft: 9px;
+  border-top-left-radius: 9px;
+  -webkit-border-top-right-radius: 9px;
+  -moz-border-radius-topright: 9px;
+  border-top-right-radius: 9px;
+  -webkit-border-bottom-right-radius: 9px;
+  -moz-border-radius-bottomright: 9px;
+  border-bottom-right-radius: 9px;
+  -webkit-border-bottom-left-radius: 9px;
+  -moz-border-radius-bottomleft: 9px;
+  border-bottom-left-radius: 9px;
+  text-indent: 0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  height: 28px;
+  line-height: 28px;
+  width: 131px;
+  text-decoration: none;
+  text-align: center;
+  margin: 30px;
+}
+.btn:hover {
+  background-color: #366969;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+/* -------------------------------------------------------------------------------------- */
